@@ -1,0 +1,19 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body { background-color: #fff; color: #111; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid #ccc; }
+header h1 { font-weight: bold; font-size: 2rem; }
+nav ul { list-style: none; display: flex; gap: 2rem; }
+nav a { text-decoration: none; color: #111; font-weight: 500; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; padding: 2rem; }
+.gallery img { width: 100%; display: block; border-radius: 6px; transition: transform 0.3s; cursor: pointer; }
+.gallery img:hover { transform: scale(1.05); }
+.art-detail { display: flex; flex-wrap: wrap; gap: 2rem; padding: 4rem 2rem; }
+.art-detail img { max-width: 45%; border-radius: 8px; }
+.art-detail p { max-width: 45%; font-size: 1.1rem; }
+footer { text-align: center; padding: 2rem; border-top: 1px solid #ccc; margin-top: 2rem; }
